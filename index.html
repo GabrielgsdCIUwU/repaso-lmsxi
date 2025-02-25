@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>A</title>
+  </head>
+  <body>
+    <div>
+        <form action="/ruta" method="post">
+            
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="fav">Favorito: </label>
+            <input type="checkbox" name="fav" id="fav" value="si">
+
+            <label for="games">Juegos:</label>
+            <select name="games" id="games">
+                <option value="tf2">tf2</option>
+                <option value="csgo">csgo</option>
+            </select>
+
+            <textarea name="msg" id="msg" rows="2" cols="2"></textarea>
+
+            <input type="tel" pattern="[0-9]{3}-[0-9]{3}">
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div class="tabla">
+        <table>
+            <tr>
+                <td colspan="2">Tabla</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>4</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <div class="botones">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+        </div>
+    </div>
+    <div class="tablero">
+        <div class="contenedorTablero">
+            <div class="numero1">1</div>
+            <div class="numero2">2</div>
+            <div class="numero3">3</div>
+            <div class="numero4">4</div>
+            <div class="numero5">5</div>
+            <div class="numero6">6</div>
+            <div class="numero7">7</div>
+            <div class="numero8">8</div>
+        </div>
+    </div>
+  </body>
+</html>
